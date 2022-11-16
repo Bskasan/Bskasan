@@ -30,6 +30,10 @@ Enthusiastic Game Developer and Programmer with 1+ years of experience with Unit
 
 ## 💻 Contact Me 💻 ##
 
+<a href="https://www.linkedin.com/in/bekirskasan/">
+  <img align="left" alt="LinkedIn" width="40px" style="padding-right:10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
+</a>
+
 <!--
 **Bskasan/Bskasan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
