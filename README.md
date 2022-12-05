@@ -42,7 +42,7 @@ Hello guys! My name is Bekir and living in Finland. I am aspiring Game Developer
 <details align="center">
   <summary><h3>HTML PROJECTS</h3></summary>
   <br>
- <a href="">Basic Html Table</a><br>
+ <a href="https://bskasan.github.io/BasicHtmlTable/">Basic Html Table</a><br>
 </details>
 
 <!--Game Projects Toggle List-->
