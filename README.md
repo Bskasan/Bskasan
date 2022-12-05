@@ -2,7 +2,10 @@
 <img src="https://github.com/Bskasan/Bskasan/blob/main/images/GitBanner.png?raw=true" alt="Bekir Kasan">
 
 ## About Me ##
-Enthusiastic Game Developer and Programmer with 1+ years of experience with Unity Engine, C#, Java, Object-Oriented Programming concepts, data structure and full game development lifecycle experience.
+
+
+Hello guys! My name is Bekir and living in Finland. I am aspiring Game Developer and Front-End Web Developer with 1+ years of experience with Unity Game Engine, C#, HTML/CSS, JavaScript, and Object-Oriented Programming concepts, data structures, Full Software/Game Development Lifecycle, and more. 
+
 
 <!-- Social badges section -->
 <!-- Badges with custom icons - https://github.com/DenverCoder1/custom-icon-badges -->
