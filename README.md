@@ -47,6 +47,7 @@ Hello guys! My name is Bekir and living in Finland. I am aspiring Game Developer
   </summary>
   <br>
   <a href="https://bskasan.github.io/BasicHtmlTable/">Basic Html Table</a><br>
+  <a href="https://bskasan.github.io/WeeklyScheduleWithCSS/">Weekly Schedule Table with CSS</a><br>
 </details>
 
 <!--Game Projects Toggle List-->
