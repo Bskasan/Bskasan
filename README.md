@@ -25,9 +25,35 @@ Hello guys! My name is Bekir and living in Finland. I am aspiring Game Developer
 <img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
 <img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
 <img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
+<img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+<img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+<img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+<img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+<img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original-wordmark.svg" />
+
 
 <br>
 <br>
+<hr>
+<br>
+
+
+<!--Html Projects Toggle List-->
+<details align="center">
+  <summary><h3>HTML PROJECTS</h3></summary>
+  <br>
+ <a href="">Basic Html Table</a><br>
+</details>
+
+<!--Game Projects Toggle List-->
+<details align="center">
+  <summary><h3>UNITY GAME PROJECTS</h3></summary>
+  <br>
+  <a href="https://github.com/Bskasan/First2DGame">2D Platform Game</a><br>
+  <a href="https://github.com/Bskasan/ClickyMouseGame">The Clicky Mouse Game</a><br>
+  <a href="https://github.com/Bskasan/MiniArcadeStyleSumoGamePrototype-ULP-">Arcade Style Sumo Game 3D</a><br>
+  <a href="https://github.com/Bskasan/RunnerGameUnityLearning">Basic Runner Game</a><br>
+</details>
 
 <h3 align="center"> 💻 Contact Me 💻 </h3>
 
