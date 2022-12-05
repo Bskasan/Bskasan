@@ -1,7 +1,5 @@
 
-# 👾 Bekir Kasan 👾
-
-**Game Developer / Full-Stack Web Developer**
+<img src="https://github.com/Bskasan/Bskasan/blob/main/images/GitBanner.png?raw=true" alt="Bekir Kasan">
 
 ## About Me ##
 Enthusiastic Game Developer and Programmer with 1+ years of experience with Unity Engine, C#, Java, Object-Oriented Programming concepts, data structure and full game development lifecycle experience.
