@@ -29,11 +29,20 @@ Hello guys! My name is Bekir and living in Finland. I am aspiring Game Developer
 <br>
 <br>
 
-## 💻 Contact Me 💻 ##
+<h3 align="center"> 💻 Contact Me 💻 </h3>
 
 <a href="https://www.linkedin.com/in/bekirskasan/">
   <img align="left" alt="LinkedIn" width="40px" style="padding-right:10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
 </a>
+
+<br><hr>
+
+![Bekir's GitHub stats](https://github-readme-stats.vercel.app/api?username=Bskasan&show_icons=true&theme=transparent)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Bskasan&theme=dark)](https://git.io/streak-stats)
+
+
+
+
 
 <!--
 **Bskasan/Bskasan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
