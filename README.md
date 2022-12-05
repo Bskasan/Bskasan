@@ -1,7 +1,7 @@
 
 <img src="https://github.com/Bskasan/Bskasan/blob/main/images/GitBanner.png?raw=true" alt="Bekir Kasan">
 
-## About Me ##
+<h3 align="center"> About Me </h3>
 
 
 Hello guys! My name is Bekir and living in Finland. I am aspiring Game Developer and Front-End Web Developer with 1+ years of experience with Unity Game Engine, C#, HTML/CSS, JavaScript, and Object-Oriented Programming concepts, data structures, Full Software/Game Development Lifecycle, and more. 
@@ -10,7 +10,7 @@ Hello guys! My name is Bekir and living in Finland. I am aspiring Game Developer
 <!-- Social badges section -->
 <!-- Badges with custom icons - https://github.com/DenverCoder1/custom-icon-badges -->
 <!-- View counter - https://github.com/DenverCoder1/Simple-View-Counter -->
-<p align="left">
+<p align="center">
   <a href="https://github.com/Bskasan?tab=repositories&sort=stargazers">
     <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Bskasan?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
   <a href="https://github.com/Bskasan?tab=followers">
@@ -18,7 +18,7 @@ Hello guys! My name is Bekir and living in Finland. I am aspiring Game Developer
 </p>
 
 ---
-### 👨‍💻 Programming Languages and Tools
+<h3 align="center"> Programming Languages and Tools </h3>
 
 <img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg"/>
 <img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"/>
