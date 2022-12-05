@@ -42,7 +42,7 @@ Hello guys! My name is Bekir and living in Finland. I am aspiring Game Developer
 <details align="center">
   <summary>
     <img alt="Html" width="20px" style="padding-right:5px;" src="https://github.com/Bskasan/Bskasan/blob/main/images/html-5.png?raw=true"/>
-    <h3>HTML PROJECTS</h3>
+    <h3>HTML/CSS PROJECTS</h3>
     <img alt="Html" width="20px" style="padding-right:5px;" src="https://github.com/Bskasan/Bskasan/blob/main/images/html-5.png?raw=true"/>
   </summary>
   <br>
