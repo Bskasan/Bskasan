@@ -46,6 +46,8 @@ Hello guys! My name is Bekir and living in Finland. I am aspiring Game Developer
     <img alt="Html" width="20px" style="padding-right:5px;" src="https://github.com/Bskasan/Bskasan/blob/main/images/html-5.png?raw=true"/>
   </summary>
   <br>
+  <a href="https://bskasan.github.io/NetflixSurveyForm/">Netflix Survey Form</a><br>
+  <a href="https://bskasan.github.io/VoltranClubPage_Html_Css/">Voltran Club Page</a><br>
   <a href="https://bskasan.github.io/BootcampApplicationFormWithCSS/">Bootcamp Application Form with CSS</a><br>
   <a href="https://bskasan.github.io/WeeklyScheduleWithCSS/">Weekly Schedule Table with CSS</a><br>
   <a href="https://bskasan.github.io/BasicHtmlTable/">Basic Html Table</a><br>
