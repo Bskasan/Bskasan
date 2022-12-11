@@ -4,8 +4,7 @@
 <h3 align="center"> About Me </h3>
 
 
-Hello guys! My name is Bekir and living in Finland. I am aspiring Game Developer and Front-End Web Developer with 1+ years of experience with Unity Game Engine, C#, HTML/CSS, JavaScript, and Object-Oriented Programming concepts, data structures, Full Software/Game Development Lifecycle, and more. 
-
+Hello guys! My name is Bekir and located in Finland. I am an aspiring Game Developer and Front-End Web Developer with 1+ years of experience. Currently, I am a Full-Stack Developer Trainee at Clarusway and WordPress Web Developer at Star Dunnage Oy, Finland. At the same time, I've been working on my own indie game nowadays.
 
 <!-- Social badges section -->
 <!-- Badges with custom icons - https://github.com/DenverCoder1/custom-icon-badges -->
