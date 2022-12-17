@@ -45,7 +45,10 @@ Hello guys! My name is Bekir and located in Finland. I am an aspiring Game Devel
     <img alt="Html" width="20px" style="padding-right:5px;" src="https://github.com/Bskasan/Bskasan/blob/main/images/html-5.png?raw=true"/>
   </summary>
   <br>
+  <a href="https://bskasan.github.io/Google-Landing-Page/">Google Landing Page</a><br>
+  <p> This is a Google Landing Page that I created with small changes by using HTML and CSS. </p>
   <a href="https://bskasan.github.io/NetflixSurveyForm/">Netflix Survey Form</a><br>
+  <p> In this project I tried to make my own Netflix Survey Form by using HTML and CSS. </p>
   <a href="https://bskasan.github.io/VoltranClubPage_Html_Css/">Voltran Club Page</a><br>
   <a href="https://bskasan.github.io/BootcampApplicationFormWithCSS/">Bootcamp Application Form with CSS</a><br>
   <a href="https://bskasan.github.io/WeeklyScheduleWithCSS/">Weekly Schedule Table with CSS</a><br>
