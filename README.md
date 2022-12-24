@@ -45,14 +45,12 @@ Hello guys! My name is Bekir and located in Finland. I am an aspiring Game Devel
     <img alt="Html" width="20px" style="padding-right:5px;" src="https://github.com/Bskasan/Bskasan/blob/main/images/html-5.png?raw=true"/>
   </summary>
   <br>
-  <a href="https://bskasan.github.io/Google-Landing-Page/">Google Landing Page</a><br>
-  <p> This is a Google Landing Page that I created with small changes by using HTML and CSS. </p>
-  <a href="https://bskasan.github.io/NetflixSurveyForm/">Netflix Survey Form</a><br>
-  <p> In this project I tried to make my own Netflix Survey Form by using HTML and CSS. </p>
-  <a href="https://bskasan.github.io/VoltranClubPage_Html_Css/">Voltran Club Page</a><br>
-  <a href="https://bskasan.github.io/BootcampApplicationFormWithCSS/">Bootcamp Application Form with CSS</a><br>
-  <a href="https://bskasan.github.io/WeeklyScheduleWithCSS/">Weekly Schedule Table with CSS</a><br>
-  <a href="https://bskasan.github.io/BasicHtmlTable/">Basic Html Table</a><br>
+  <a href="https://bskasan.github.io/Google-Landing-Page/">Google Landing Page</a><br><br>
+  <a href="https://bskasan.github.io/NetflixSurveyForm/">Netflix Survey Form</a><br><br>
+  <a href="https://bskasan.github.io/VoltranClubPage_Html_Css/">Voltran Club Page</a><br><br>
+  <a href="https://bskasan.github.io/BootcampApplicationFormWithCSS/">Bootcamp Application Form with CSS</a><br><br>
+  <a href="https://bskasan.github.io/WeeklyScheduleWithCSS/">Weekly Schedule Table with CSS</a><br><br>
+  <a href="https://bskasan.github.io/BasicHtmlTable/">Basic Html Table</a><br><br>
   
 </details>
 
@@ -64,10 +62,10 @@ Hello guys! My name is Bekir and located in Finland. I am an aspiring Game Devel
     <img alt="Unity" width="20px" style="padding-right:5px;" src="https://github.com/Bskasan/Bskasan/blob/main/images/unity.png?raw=true"/>
   </summary>
   <br>
-  <a href="https://github.com/Bskasan/First2DGame">2D Platform Game</a><br>
-  <a href="https://github.com/Bskasan/ClickyMouseGame">The Clicky Mouse Game</a><br>
-  <a href="https://github.com/Bskasan/MiniArcadeStyleSumoGamePrototype-ULP-">Arcade Style Sumo Game 3D</a><br>
-  <a href="https://github.com/Bskasan/RunnerGameUnityLearning">Basic Runner Game</a><br>
+  <a href="https://github.com/Bskasan/First2DGame">2D Platform Game</a><br><br>
+  <a href="https://github.com/Bskasan/ClickyMouseGame">The Clicky Mouse Game</a><br><br>
+  <a href="https://github.com/Bskasan/MiniArcadeStyleSumoGamePrototype-ULP-">Arcade Style Sumo Game 3D</a><br><br>
+  <a href="https://github.com/Bskasan/RunnerGameUnityLearning">Basic Runner Game</a><br><br>
 </details>
 
 <h3 align="center"> 💻 Contact Me 💻 </h3>
