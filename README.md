@@ -78,7 +78,6 @@ Hello guys! My name is Bekir and located in Finland. I am an aspiring Game Devel
 <br><hr>
 
 ![Bekir's GitHub stats](https://github-readme-stats.vercel.app/api?username=Bskasan&show_icons=true&theme=transparent)
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Bskasan&theme=dark)](https://git.io/streak-stats)
 
 
 
