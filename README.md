@@ -46,6 +46,7 @@ Hello guys! My name is Bekir and located in Finland. I am an aspiring Game Devel
   </summary>
   <br>
   <a href="https://bskasan.github.io/IOS_Calculator_CSS_Grid/">IOS Calculator (CSS - Grid Layout)</a><br><br>
+  <a href="https://bskasan.github.io/CW-Website-Media-Query-CSS/">Practice Website Page (CSS Media Query) </a><br><br>
   <a href="https://bskasan.github.io/ParallaxWebsiteProject/">Parallax Website Page</a><br><br>
   <a href="https://bskasan.github.io/Google-Landing-Page/">Google Landing Page</a><br><br>
   <a href="https://bskasan.github.io/NetflixSurveyForm/">Netflix Survey Form</a><br><br>
