@@ -77,7 +77,7 @@ Hello guys! My name is Bekir and located in Finland. I am an aspiring Game Devel
   <img align="left" alt="LinkedIn" width="40px" style="padding-right:10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
 </a>
 
-<br><hr>
+<br><hr><br>
 
 ![Bekir's GitHub stats](https://github-readme-stats.vercel.app/api?username=Bskasan&show_icons=true&theme=transparent)
 
