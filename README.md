@@ -24,6 +24,7 @@ Hello guys! My name is Bekir and located in Finland. I am an aspiring Game Devel
 <img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
 <img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
 <img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
+<img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
 <img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 <img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
 <img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
@@ -35,6 +36,17 @@ Hello guys! My name is Bekir and located in Finland. I am an aspiring Game Devel
 <br>
 <hr>
 <br>
+
+<!--Sass Projects Toggle List-->
+<details align="center">
+  <summary>
+    <img alt="Sass" width="20px" style="padding-right:5px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+    <h3>SASS PROJECTS</h3>
+    <img  alt="Sass" width="20px" style="padding-right:5px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+  </summary>
+  <br>
+  <a href="https://bskasan.github.io/Sass-Portfolio-Project/">Wednesday Adams Portfolio Page (with Sass)</a><br><br>
+</details>
 
 
 <!--Html Projects Toggle List-->
