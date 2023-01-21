@@ -37,6 +37,17 @@ Hello guys! My name is Bekir and located in Finland. I am an aspiring Game Devel
 <hr>
 <br>
 
+<!--JavaScript Projects Toggle List-->
+<details align="center">
+  <summary>
+    <img alt="JS" width="20px" style="padding-right:5px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+    <h3>JAVASCRIPT PROJECTS</h3>
+    <img  alt="JS" width="20px" style="padding-right:5px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+  </summary>
+  <br>
+  <a href="https://bskasan.github.io/ToDoAppWithJS/">To Do App</a><br><br>
+</details>
+
 <!--Sass Projects Toggle List-->
 <details align="center">
   <summary>
