@@ -38,6 +38,17 @@ Hello guys! My name is Bekir and located in Finland. I am Passionate Software de
 <hr>
 <br>
 
+<!--React Projects Toggle List-->
+<details align="center">
+  <summary>
+    <img alt="JS" width="20px" style="padding-right:5px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+    <h3>REACT PROJECTS</h3>
+    <img  alt="JS" width="20px" style="padding-right:5px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+  </summary>
+  <br>
+  <a href="#">Horoscope</a><br><br>
+</details>
+
 <!--JavaScript Projects Toggle List-->
 <details align="center">
   <summary>
