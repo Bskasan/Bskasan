@@ -1,18 +1,23 @@
 
-<img src="https://github.com/Bskasan/Bskasan/blob/main/images/GitBanner.png?raw=true" alt="Bekir Kasan">
+# 🧗‍♂️ Bekir Kasan
 
-<h3 align="center"> About Me </h3>
+**`Software Developer (Front-End/Game Development/Creator)`**
 
 
 Hello guys! My name is Bekir and located in Finland. I am Passionate Software developer (Front-end Developer)with over 3 years in the industry, including 1+ years of professional experience. Skilled in game development using Unity and C#, with a strong understanding of object-oriented programming, data structures, and the software development lifecycle. Recently pivoted to front-end web development, mastering HTML, CSS, JavaScript, and React. Ready to bring my passion and skills to a new challenge as a front-end web developer. 
 
+![](https://komarev.com/ghpvc/?username=bskasan&color=red&style=for-the-badge)
 
+#### 📬 Connect with me:
+[![Linkedin: VPA](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bekirskasan/)
+[![website](https://img.shields.io/badge/gmail-f1f2f6.svg?&style=for-the-badge&logo=gmail&logoColor=red)](mailto:becaglar3434@gmail.com)
 
+<hr>
 
 <!-- Social badges section -->
 <!-- Badges with custom icons - https://github.com/DenverCoder1/custom-icon-badges -->
 <!-- View counter - https://github.com/DenverCoder1/Simple-View-Counter -->
-<p align="center">
+<p align="left">
   <a href="https://github.com/Bskasan?tab=repositories&sort=stargazers">
     <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Bskasan?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
   <a href="https://github.com/Bskasan?tab=followers">
