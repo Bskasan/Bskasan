@@ -10,7 +10,7 @@ Hello guys! My name is Bekir and located in Finland. I am Passionate Software de
 
 #### 📬 Connect with me:
 [![Linkedin: VPA](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bekirskasan/)
-[![website](https://img.shields.io/badge/gmail-f1f2f6.svg?&style=for-the-badge&logo=gmail&logoColor=red)](mailto:becaglar3434@gmail.com)
+[![website](https://img.shields.io/badge/gmail-f1f2f6.svg?&style=for-the-badge&logo=gmail&logoColor=red)](mailto:b.kasan@yandex.com)
 
 <hr>
 
