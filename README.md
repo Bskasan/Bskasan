@@ -1,7 +1,7 @@
 
 # 🧗‍♂️ Bekir Kasan
 
-**`Software Developer (Front-End/Game Development/Creator)`**
+**`Software Developer (Full Stack Web Development/Game Development/Creator)`**
 
 
 Hello guys! My name is Bekir and located in Finland. I am Passionate Software developer (Front-end Developer)with over 3 years in the industry, including 1+ years of professional experience. Skilled in game development using Unity and C#, with a strong understanding of object-oriented programming, data structures, and the software development lifecycle. Recently pivoted to front-end web development, mastering HTML, CSS, JavaScript, and React. Ready to bring my passion and skills to a new challenge as a front-end web developer. 
