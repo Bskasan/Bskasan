@@ -78,6 +78,7 @@ Hello guys! My name is Bekir and located in Finland. I am Passionate Software de
   <a href="https://bskasan.github.io/Find_The_Number_Game-JS/"> Guess The Number (DOM Manipulation)</a><br><br>
   <a href="https://bskasan.github.io/RetroBrackerGame/"> Retro Bracket Game - VanillaJS (DOM Manipulation)</a><br><br>
   <a href="https://bskasan.github.io/ShoppingApp_VanillaJS/">E-Commerce Website ( Vanilla JS )</a><br><br>
+  <a href="https://github.com/Bskasan/WeatherApp_JavaScript">Weather App JavaScript ( DOM - Open Weather API )</a><br><br>
 </details>
 
 <!--Sass Projects Toggle List-->
