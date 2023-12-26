@@ -78,6 +78,7 @@ Hello guys! I am Bekir or you can call me Ronin. Software Developer by day who l
   </summary>
   <br>
   <a href="https://github.com/Bskasan/HoroscopeReactJS">Horoscope</a><br><br>
+  <a href="https://nba-legends-app-react-swa.netlify.app/">NBA Legends</a><br><br>
 </details>
 
 <!--JavaScript Projects Toggle List-->
