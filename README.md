@@ -29,9 +29,7 @@ Hello guys! I am Bekir or you can call me Ronin. Software Developer by day who l
     <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/Bskasan?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
 </p>
 
-<hr>
-
-### 📺 Latest YouTube Videos
+### 📺 Latest YouTube Videos ( IndieGDD - Game Design and Indie Games Reviews )
 
 <!-- BEGIN YOUTUBE-CARDS -->
 [![Korkutan ve Aynı Zamanda Bağımlı Yapan Değişik Bir Oyun Mekaniği - Buckshot Roulette](https://ytcards.demolab.com/?id=sQgCzp9eV3M&title=Korkutan+ve+Ayn%C4%B1+Zamanda+Ba%C4%9F%C4%B1ml%C4%B1+Yapan+De%C4%9Fi%C5%9Fik+Bir+Oyun+Mekani%C4%9Fi+-+Buckshot+Roulette&lang=en&timestamp=1713708906&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "Korkutan ve Aynı Zamanda Bağımlı Yapan Değişik Bir Oyun Mekaniği - Buckshot Roulette")](https://www.youtube.com/watch?v=sQgCzp9eV3M)
