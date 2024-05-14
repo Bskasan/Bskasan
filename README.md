@@ -29,6 +29,11 @@ Hello guys! I am Bekir or you can call me Ronin. Software Developer by day who l
     <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/Bskasan?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
 </p>
 
+<hr>
+<!-- BEGIN YOUTUBE-CARDS -->
+<!-- END YOUTUBE-CARDS -->
+<hr>
+
 ---
 <h3 align="center">Languages and Tools:</h3>
 <p align="center"> 
