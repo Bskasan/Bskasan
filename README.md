@@ -35,7 +35,7 @@ Hello guys! I am Bekir or you can call me Ronin. Software Developer by day who l
 
 <!-- BEGIN YOUTUBE-CARDS -->
 <!-- END YOUTUBE-CARDS -->
-<hr>
+
 
 ---
 
