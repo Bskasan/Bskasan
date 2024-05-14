@@ -1,8 +1,6 @@
-
 # 🧗‍♂️ Bekir Kasan (RoninDev)
 
 **`Software Developer (Full Stack Web Development/Game Development/Creator)`**
-
 
 Hello guys! I am Bekir or you can call me Ronin. Software Developer by day who likes to solve problems using required technologies, and learning different topics and a game programmer by night who likes to create immersive and captivating game experiences.
 
@@ -11,9 +9,11 @@ Hello guys! I am Bekir or you can call me Ronin. Software Developer by day who l
 📓 **[NoteBuddy]()** -  an open-source note-taking web application for programmers. Don't forget to check out! <br>
 🕹️ **[Zombie Shooter Game]()** - 3D Third person shooter game with Unity and C# <br><hr>
 -->
+
 ![](https://komarev.com/ghpvc/?username=bskasan&color=red&style=for-the-badge)
 
 #### 📬 Connect with me:
+
 [![Linkedin: VPA](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bekirskasan/)
 [![website](https://img.shields.io/badge/gmail-f1f2f6.svg?&style=for-the-badge&logo=gmail&logoColor=red)](mailto:b.kasan@yandex.com)
 
@@ -30,11 +30,15 @@ Hello guys! I am Bekir or you can call me Ronin. Software Developer by day who l
 </p>
 
 <hr>
+
+### 📺 Latest YouTube Videos
+
 <!-- BEGIN YOUTUBE-CARDS -->
 <!-- END YOUTUBE-CARDS -->
 <hr>
 
 ---
+
 <h3 align="center">Languages and Tools:</h3>
 <p align="center"> 
   <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a>
@@ -59,7 +63,6 @@ Hello guys! I am Bekir or you can call me Ronin. Software Developer by day who l
   <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> 
 </p>
 
-
 <br>
 <br>
 <hr>
@@ -74,7 +77,6 @@ Hello guys! I am Bekir or you can call me Ronin. Software Developer by day who l
   <br>
   <a href="#">Airbnb Clone</a><br><br>
 </details>
-
 
 <!--React Projects Toggle List-->
 <details align="center">
@@ -126,7 +128,6 @@ Hello guys! I am Bekir or you can call me Ronin. Software Developer by day who l
   <a href="https://bskasan.github.io/gameDevCourseWebsite/">GameDev Academy Website Page</a><br><br>
 </details>
 
-
 <!--Html Projects Toggle List-->
 <details align="center">
   <summary>
@@ -170,8 +171,6 @@ Hello guys! I am Bekir or you can call me Ronin. Software Developer by day who l
 <br><hr><br>
 
 ![Bekir's GitHub stats](https://github-readme-stats.vercel.app/api?username=Bskasan&show_icons=true&theme=transparent)
-
-
 
 <!--
 **Bskasan/Bskasan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
