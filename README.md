@@ -4,11 +4,6 @@
 
 Hello guys! I am Bekir or you can call me Ronin. Software Developer by day who likes to solve problems using required technologies, and learning different topics and a game programmer by night who likes to create immersive and captivating game experiences.
 
-<!--
- Currently working on;
-📓 **[NoteBuddy]()** -  an open-source note-taking web application for programmers. Don't forget to check out! <br>
-🕹️ **[Zombie Shooter Game]()** - 3D Third person shooter game with Unity and C# <br><hr>
--->
 
 ![](https://komarev.com/ghpvc/?username=bskasan&color=red&style=for-the-badge)
 
