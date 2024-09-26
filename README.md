@@ -1,6 +1,6 @@
 # 🧗‍♂️ Bekir Kasan (RoninDev)
 
-**`Software Developer (Full Stack Web Development/Game Development/Creator)`**
+**`Product-Minded Software Developer (Full Stack Web Development/Game Development/Creator)`**
 
 Hello guys! I am Bekir or you can call me Ronin. Software Developer by day who likes to solve problems using required technologies, and learning different topics and a game programmer by night who likes to create immersive and captivating game experiences.
 
