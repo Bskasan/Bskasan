@@ -1,4 +1,4 @@
-# 🧗‍♂️ Bekir s  Kasan - RoninDev
+# 🧗‍♂️ Bekir Kasan - RoninDev
 
 **`Product-Minded Software Developer (Full Stack Web Development/Game Development/Creator)`**
 
