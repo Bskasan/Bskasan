@@ -1,8 +1,8 @@
-# 🧗‍♂️ Bekir Kasan - RoninDev
+# 🧗‍♂️ Bekir Kasan
 
 **`Product-Minded Software Developer (Full Stack Web Development/Game Development/Creator)`**
 
-Hello guys! I am Bekir or you can call me Ronin. Software Developer by day who likes to solve problems using required technologies, and learning different topics and a game programmer by night who likes to create immersive and captivating game experiences.
+Hey there! I’m a software developer who loves building end-to-end solutions. By day, I craft sleek, scalable full-stack web apps; by night, I dive into Unity. But lately, I've been geeking out over low-level and graphics programming, building my own game engines from scratch. I thrive on understanding how things really work under the hood, and I’m all about writing code that flows rather than mindlessly reinventing the wheel.
 
 
 ![](https://komarev.com/ghpvc/?username=bskasan&color=red&style=for-the-badge)
