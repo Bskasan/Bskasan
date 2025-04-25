@@ -24,16 +24,6 @@ Hello guys! I am Bekir or you can call me Ronin. Software Developer by day who l
     <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/Bskasan?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
 </p>
 
-### 📺 Latest YouTube Videos ( IndieGDD - Game Design and Indie Games Reviews )
-
-<!-- BEGIN YOUTUBE-CARDS -->
-[![Pixel Art Gözünden Viking Klasiği - Sons of Valhalla](https://ytcards.demolab.com/?id=0TbS64B7Rnw&title=Pixel+Art+G%C3%B6z%C3%BCnden+Viking+Klasi%C4%9Fi+-+Sons+of+Valhalla&lang=en&timestamp=1716195601&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "Pixel Art Gözünden Viking Klasiği - Sons of Valhalla")](https://www.youtube.com/watch?v=0TbS64B7Rnw)
-[![Korkutan ve Aynı Zamanda Bağımlı Yapan Değişik Bir Oyun Mekaniği - Buckshot Roulette](https://ytcards.demolab.com/?id=sQgCzp9eV3M&title=Korkutan+ve+Ayn%C4%B1+Zamanda+Ba%C4%9F%C4%B1ml%C4%B1+Yapan+De%C4%9Fi%C5%9Fik+Bir+Oyun+Mekani%C4%9Fi+-+Buckshot+Roulette&lang=en&timestamp=1713708906&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "Korkutan ve Aynı Zamanda Bağımlı Yapan Değişik Bir Oyun Mekaniği - Buckshot Roulette")](https://www.youtube.com/watch?v=sQgCzp9eV3M)
-[![Game Design 101 - Deep Rock Galactic: Survivor](https://ytcards.demolab.com/?id=ozFccx8AEpI&title=Game+Design+101+-+Deep+Rock+Galactic%3A+Survivor&lang=en&timestamp=1713081606&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "Game Design 101 - Deep Rock Galactic: Survivor")](https://www.youtube.com/watch?v=ozFccx8AEpI)
-[![Indie severleri buraya lütfen...](https://ytcards.demolab.com/?id=iQQwmUvubq4&title=Indie+severleri+buraya+l%C3%BCtfen...&lang=en&timestamp=1712998806&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "Indie severleri buraya lütfen...")](https://www.youtube.com/watch?v=iQQwmUvubq4)
-<!-- END YOUTUBE-CARDS -->
-
-
 ---
 
 <h3 align="center">Languages and Tools:</h3>
