@@ -1,4 +1,4 @@
-# 🧗‍♂️ Bekirs Kasan
+# 🧗‍♂️ Bekir Kasan
 
 **`Product-Minded Software Developer (Full Stack Web Development/Game Development/Creator)`**
 
