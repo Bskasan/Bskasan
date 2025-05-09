@@ -1,6 +1,6 @@
 # 🧗‍♂️ Bekir Kasan
 
-**`Product-Minded Software Developer (Full Stack Web Development/Game Development/Creator)`**
+**`Product-Minded Software Developer (Full Stack Web Development/Game Development/Creator)`**s
 
 Hey there! I’m a software developer who loves building end-to-end solutions. By day, I craft sleek, scalable full-stack web apps; by night, I dive into Unity. But lately, I've been geeking out over low-level and graphics programming, building my own game engines from scratch. I thrive on understanding how things really work under the hood, and I’m all about writing code that flows rather than mindlessly reinventing the wheel.
 
