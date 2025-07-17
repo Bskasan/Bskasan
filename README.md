@@ -2,7 +2,7 @@
 
 `Product-Minded Software Developer (Full Stack Web Development/Game Development/Creator)`
 
-Hey there! I’m a software developer who loves building end-to-end solutions. By day, I craft sleek, scalable full-stack web apps; by night, I dive into Unity. But lately, I've been geeking out over low-level and graphics programming, building my own game engines from scratch. I thrive on understanding how things really work under the hood, and I’m all about writing code that flows rather than mindlessly reinventing the wheel.
+Hey there! I’m a software developer who loves building end-to-end solutions. By day, I craft sleek, scalable full-stack web applications; by night, I delve into game development. Lately, I've been diving into low-level and graphics programming, building my games and tools from scratch. I thrive on understanding how things work under the hood, and I’m all about writing code that flows rather than mindlessly reinventing the wheel.
 
 
 ![](https://komarev.com/ghpvc/?username=bskasan&color=red&style=for-the-badge)
