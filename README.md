@@ -15,7 +15,7 @@
 **Product‑Minded Software Developer**
 *Full‑Stack Web • Game Development • Creator*
 
-<a href="https://www.linkedin.com/in/bekirskasan/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"></a> <a href="mailto:b.kasan@yandex.com"><img alt="Email" src="https://img.shields.io/badge/Email-b.kasan%40yandex.com-1f2937?logo=gmail&logoColor=white&style=for-the-badge"></a> <img alt="Profile views" src="https://komarev.com/ghpvc/?username=bskasan&color=red&style=for-the-badge"/>
+<a href="https://www.linkedin.com/in/bekirskasan/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"></a> <a href="mailto:b.kasan@hotmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-b.kasan%40hotmail.com-1f2937?logo=gmail&logoColor=white&style=for-the-badge"></a> <img alt="Profile views" src="https://komarev.com/ghpvc/?username=bskasan&color=red&style=for-the-badge"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjZvZ3hnZDRmMnZjNDRub2ppMGtoM3dsaWJrNGZtYXl4NzhzODlmYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dEu9dnEquygwOISnMe/giphy.gif">
@@ -118,7 +118,7 @@ I build **sleek, scalable web apps by day** and craft **gameplay & tools by nigh
 ## 🤝 Let’s Connect
 
 * 💼 LinkedIn: <a href="https://www.linkedin.com/in/bekirskasan/">bekirskasan</a>
-* 📫 Email: <a href="mailto:b.kasan@yandex.com">[b.kasan@yandex.com](mailto:b.kasan@yandex.com)</a>
+* 📫 Email: <a href="mailto:b.kasan@hotmail.com">[b.kasan@hotmail.com](mailto:b.kasan@hotmail.com)</a>
 
 ---
 
