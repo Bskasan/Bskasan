@@ -122,11 +122,5 @@ I build **sleek, scalable web apps by day** and craft **gameplay & tools by nigh
 
 ---
 
-### 🧩 Maintenance Tips
-
-* Keep **pinned repos** fresh (best 6).
-* Add **short descriptions, topics & social preview images** to repos.
-* Link one **live demo** per project when possible.
-* Keep this README concise; recruiters love clarity.
 
 <!-- END -->
