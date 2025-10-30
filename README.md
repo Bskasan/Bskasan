@@ -53,8 +53,7 @@ I build **sleek, scalable web apps by day** and craft **gameplay & tools by nigh
 
 ### Full‑Stack
 
-* **Airbnb Clone** — Listing, booking, auth, responsive UI. *Stack: Next.js/React, TS, Tailwind.*
-  ▸ Repo: `coming‑soon` (link your best live demo or repo)
+* **Coming Soon**
 
 ### React
 
