@@ -13,7 +13,7 @@
 # 🧗‍♂️ Bekir Kasan
 
 **Product‑Minded Software Developer**
-*Full‑Stack Web • Game Development • Creator/Streamers*
+*Full‑Stack Web • Game Development • Creator/Streamer*
 
 <a href="https://www.linkedin.com/in/bekirskasan/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"></a> <a href="mailto:b.kasan@hotmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-b.kasan%40hotmail.com-1f2937?logo=gmail&logoColor=white&style=for-the-badge"></a> <img alt="Profile views" src="https://komarev.com/ghpvc/?username=bskasan&color=red&style=for-the-badge"/>
 
