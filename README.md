@@ -10,7 +10,7 @@
 
 <div align="center">
 
-# 🧗‍♂️ Bekir Kasan ( Ronin Devvv )
+# 🧗‍♂️ Bekir Kasan 
 
 **Product‑Minded Software Developer**
 *Full‑Stack Web • Game Development • Creator/Streamer*
