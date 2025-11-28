@@ -9,6 +9,7 @@ Cool, cinematic, developer-style version — 2025 edition
 
 **Full-Stack Dev | Game Developer | Code Craftsman**  
 I build the web by day ☀️ and worlds by night 🌙  
+I build the web by day ☀️ and worlds by night 🌙  
 
 <a href="https://www.linkedin.com/in/bekirskasan/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"></a> 
 <a href="mailto:b.kasan@hotmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-b.kasan%40hotmail.com-1f2937?logo=gmail&logoColor=white&style=for-the-badge"></a> 
