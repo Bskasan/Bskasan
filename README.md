@@ -25,7 +25,7 @@ I build the web by day ☀️ and worlds by night 🌙
 
 ### 👋 Hey there
 
-I build **sleek, scalable web apps by day** and **game engines & tools by night**.  
+I build **sleek, scalable web apps by day** and **games & tools by night**.  
 Right now I’m diving deep into **low-level & graphics programming**, chasing that feeling of *"I finally understand how this works under the hood."*  
 
 I’m obsessed with **clean, expressive code** and the kind of design that *flows*.  
@@ -39,7 +39,7 @@ Sometimes I reinvent the wheel, just to see if I can make it roll smoother.
   Full-stack with **Next.js**, **TypeScript**, and **Azure Functions**.  
   Crafting scalable tools, observability dashboards, and secure APIs.  
 
-- 🎮 **Creating games from scratch**  
+- 🎮 **Creating games**  
   *Currently deep in C/C++ land, learning rendering, ECS, and engine design.*  
   From visuals to systems, I like to do it all.
   
