@@ -60,82 +60,58 @@ Sometimes I reinvent the wheel, just to see if I can make it roll smoother.
 > A few highlights from my dev adventures ↓  
 > *(More in pinned repos and on GitHub!)*  
 
----
+<!-- ✅ Toggle Lists (Collapsible Categories) -->
 
-### ⚙️ Full-Stack
-*Coming soon — serverless and full-stack builds with Next.js + Azure Functions.*
+<details open>
+  <summary><strong>⚙️ Full-Stack</strong></summary>
+  <br/>
+  <ul>
+    <li><em>Coming soon — serverless and full-stack builds with Next.js + Azure Functions.</em></li>
+  </ul>
+</details>
 
----
+<details>
+  <summary><strong>⚛️ React</strong></summary>
+  <br/>
+  <ul>
+    <li>🪐 <strong>Horoscope App</strong> — Fun daily horoscope SPA — <a href="https://github.com/Bskasan/HoroscopeReactJS">Repo</a></li>
+    <li>🏀 <strong>NBA Legends</strong> — Basketball legends showcase — <a href="https://nba-legends-app-react-swa.netlify.app/">Live</a> · <a href="https://github.com/Bskasan/NBA-Legends">Repo</a></li>
+    <li>🧝 <strong>LOTR Characters</strong> — The Lord of the Rings character catalogue — <a href="https://effervescent-entremet-f6d5d4.netlify.app/">Live</a></li>
+  </ul>
+</details>
 
-### ⚛️ React
-- **🪐 Horoscope App** — Fun daily horoscope SPA  
-  🔗 [Repo](https://github.com/Bskasan/HoroscopeReactJS)
+<details>
+  <summary><strong>💻 JavaScript</strong></summary>
+  <br/>
+  <ul>
+    <li>📝 <strong>To-Do App</strong> — Simple CRUD app using localStorage — <a href="https://bskasan.github.io/ToDoAppWithJS/">Live</a></li>
+    <li>🎯 <strong>Guess The Number</strong> — DOM manipulation mini-game — <a href="https://bskasan.github.io/Find_The_Number_Game-JS/">Live</a></li>
+    <li>🎮 <strong>Retro Bracket Game</strong> — Vanilla JS arcade prototype — <a href="https://bskasan.github.io/RetroBrackerGame/">Live</a></li>
+    <li>🛒 <strong>E-Commerce App (Vanilla)</strong> — Cart & catalogue basics — <a href="https://bskasan.github.io/ShoppingApp_VanillaJS/">Live</a></li>
+    <li>☁️ <strong>Weather App</strong> — OpenWeather API demo — <a href="https://github.com/Bskasan/WeatherApp_JavaScript">Repo</a></li>
+  </ul>
+</details>
 
-- **🏀 NBA Legends** — Basketball legends showcase  
-  🌐 [Live](https://nba-legends-app-react-swa.netlify.app/)  
-  📦 [Repo](https://github.com/Bskasan/NBA-Legends)
+<details>
+  <summary><strong>🎨 Sass / Bootstrap / HTML</strong></summary>
+  <br/>
+  <ul>
+    <li>🖤 <strong>Wednesday Addams Portfolio</strong> — Sass-powered portfolio project — <a href="https://bskasan.github.io/Sass-Portfolio-Project/">Live</a></li>
+    <li>🎓 <strong>GameDev Academy</strong> — Bootstrap landing site — <a href="https://bskasan.github.io/gameDevCourseWebsite/">Live</a></li>
+    <li>🧮 <strong>CSS/HTML Exercises</strong> — Calculators, forms, parallax and more — <em>Multiple projects available (see repos)</em></li>
+  </ul>
+</details>
 
-- **🧝 LOTR Characters** — The Lord of the Rings character catalogue  
-  🌐 [Live](https://effervescent-entremet-f6d5d4.netlify.app/)
-
----
-
-### 💻 JavaScript
-- **📝 To-Do App** — Simple CRUD app using localStorage  
-  🌐 [Live](https://bskasan.github.io/ToDoAppWithJS/)
-
-- **🎯 Guess The Number** — DOM manipulation mini-game  
-  🌐 [Live](https://bskasan.github.io/Find_The_Number_Game-JS/)
-
-- **🎮 Retro Bracket Game** — Vanilla JS arcade prototype  
-  🌐 [Live](https://bskasan.github.io/RetroBrackerGame/)
-
-- **🛒 E-Commerce App (Vanilla)** — Cart & catalogue basics  
-  🌐 [Live](https://bskasan.github.io/ShoppingApp_VanillaJS/)
-
-- **☁️ Weather App** — OpenWeather API demo  
-  📦 [Repo](https://github.com/Bskasan/WeatherApp_JavaScript)
-
----
-
-### 🎨 Sass / Bootstrap / HTML
-- **🖤 Wednesday Addams Portfolio** — Sass-powered portfolio project  
-  🌐 [Live](https://bskasan.github.io/Sass-Portfolio-Project/)
-
-- **🎓 GameDev Academy** — Bootstrap landing site  
-  🌐 [Live](https://bskasan.github.io/gameDevCourseWebsite/)
-
-- **🧮 CSS/HTML Exercises** — Calculators, forms, parallax and more  
-  🌐 Multiple projects available *(see repos)*
-
----
-
-### 🕹️ Unity (Games)
-- **🧩 2D Platformer** — Movement, hazards, collectibles  
-  📦 [Repo](https://github.com/Bskasan/First2DGame)
-
-- **🐭 Clicky Mouse** — Reflex-based mini-game  
-  📦 [Repo](https://github.com/Bskasan/ClickyMouseGame)
-
-- **🥋 Arcade Sumo 3D** — Physics-based prototype  
-  📦 [Repo](https://github.com/Bskasan/MiniArcadeStyleSumoGamePrototype-ULP-)
-
-- **🏃 Runner Game** — Endless runner prototype  
-  📦 [Repo](https://github.com/Bskasan/RunnerGameUnityLearning)
-
-### 📊 Stats & Activity
-
-<p align="center">
-  <img height="165" alt="Bekir's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Bskasan&show_icons=true&theme=transparent" />
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bskasan&layout=compact&theme=transparent&hide=html,css" />
-</p>
-
----
-
-### 🎯 Philosophy
-
-> “Clean code is a form of art —  
->  elegant, functional, and invisible when done right.”
+<details>
+  <summary><strong>🕹️ Unity (Games)</strong></summary>
+  <br/>
+  <ul>
+    <li>🧩 <strong>2D Platformer</strong> — Movement, hazards, collectibles — <a href="https://github.com/Bskasan/First2DGame">Repo</a></li>
+    <li>🐭 <strong>Clicky Mouse</strong> — Reflex-based mini-game — <a href="https://github.com/Bskasan/ClickyMouseGame">Repo</a></li>
+    <li>🥋 <strong>Arcade Sumo 3D</strong> — Physics-based prototype — <a href="https://github.com/Bskasan/MiniArcadeStyleSumoGamePrototype-ULP-">Repo</a></li>
+    <li>🏃 <strong>Runner Game</strong> — Endless runner prototype — <a href="https://github.com/Bskasan/RunnerGameUnityLearning">Repo</a></li>
+  </ul>
+</details>
 
 ---
 
@@ -149,6 +125,6 @@ Sometimes I reinvent the wheel, just to see if I can make it roll smoother.
 
 <div align="center">
   
-🎮 *Currently building worlds, one line at a time.*
+🎮 <em>Currently building worlds, one line at a time.</em>
 
 </div>
