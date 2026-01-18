@@ -31,6 +31,15 @@ Right now I’m diving deep into **low-level & graphics programming**, chasing t
 I’m obsessed with **clean, expressive code** and the kind of design that *flows*.  
 Sometimes I reinvent the wheel, just to see if I can make it roll smoother.
 
+### 👋 Hey there
+
+I build **sleek, scalable web apps by day** and **games & tools by night**.  
+Right now I’m diving deep into **low-level & graphics programming**, chasing that feeling of *"I finally understand how this works under the hood."*  
+
+I’m obsessed with **clean, expressive code** and the kind of design that *flows*.  
+Sometimes I reinvent the wheel, just to see if I can make it roll smoother.
+
+
 ---
 
 ### ⚙️ What I’m Up To
