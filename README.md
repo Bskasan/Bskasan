@@ -63,10 +63,10 @@ Sometimes I reinvent the wheel, just to see if I can make it roll smoother.
 <!-- ✅ Toggle Lists (Collapsible Categories) -->
 
 <details open>
-  <summary><strong>⚙️ Full-Stack</strong></summary>
+  <summary><strong>🔥 Latest Projects I’ve Created</strong></summary>
   <br/>
   <ul>
-    <li><em>Coming soon — serverless and full-stack builds with Next.js + Azure Functions.</em></li>
+    <li>⏱️ <strong>Pomodoro OBS Overlay</strong> — A clean Pomodoro timer overlay for OBS / streaming — <a href="https://bskasan.github.io/pomodoro-obs-overlay/">Live</a> · <a href="https://github.com/Bskasan/pomodoro-obs-overlay">Repo</a></li>
   </ul>
 </details>
 
@@ -128,3 +128,5 @@ Sometimes I reinvent the wheel, just to see if I can make it roll smoother.
 🎮 <em>Currently building worlds, one line at a time.</em>
 
 </div>
+
+---
