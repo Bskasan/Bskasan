@@ -1,8 +1,3 @@
-<!--
-🔥 GitHub Profile README for: Bekir Kasan
-Cool, cinematic, developer-style version — 2025 edition
--->
-
 <div align="center">
 
 # 🧠 Bekir Kasan  
