@@ -1,43 +1,19 @@
-<div align="center">
+**Hi 👋 I'm Bekir, a Software Engineer based in Espoo, Finland.**
 
-# 🧠 Bekir Kasan  
+I'm a hobbyist turned professional developer who enjoys all things computers and software engineering. In my most recent role, I worked as a Full-Stack Web Developer at <a href="https://www.northfina.fi/en" target="_blank" rel="noopener noreferrer">Northfina Oy</a> (<a href="https://etufillari.fi/" target="_blank" rel="noopener noreferrer">Etufillari Oy</a>), where I focused on building scalable web applications using Next.js, TypeScript, Node.js, and Azure Cloud Services.
 
-**Full-Stack Dev | Game Developer | Code Craftsman**  
-I build the web by day ☀️ and worlds by night 🌙  
+I also enjoy coding on <a href="https://www.twitch.tv/ronindevvv" target="_blank" rel="noopener noreferrer">stream</a>, learning in public, and improving together with others. Alongside web development, I’m interested in game development as a hobbyist and enjoy exploring low-level programming to better understand how software works under the hood.
+
+When I’m not coding, I’m probably playing drums, lifting weights, or playing games.
+
+<div align="left">
 
 <a href="https://www.linkedin.com/in/bekirskasan/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"></a> 
 <a href="mailto:b.kasan@hotmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-b.kasan%40hotmail.com-1f2937?logo=gmail&logoColor=white&style=for-the-badge"></a> 
 <img alt="Profile views" src="https://komarev.com/ghpvc/?username=bskasan&color=red&style=for-the-badge"/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjZvZ3hnZDRmMnZjNDRub2ppMGtoM3dsaWJrNGZtYXl4NzhzODlmYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dEu9dnEquygwOISnMe/giphy.gif">
-  <img alt="Ronin Dev" width="520" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjZvZ3hnZDRmMnZjNDRub2ppMGtoM3dsaWJrNGZtYXl4NzhzODlmYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dEu9dnEquygwOISnMe/giphy.gif"/>
-</picture>
-
 </div>
 
----
-
-### 👋 Hey there
-
-I build **sleek, scalable web apps by day** and **games & tools by night**.  
-Right now I’m diving deep into **low-level & graphics programming**, chasing that feeling of *"I finally understand how this works under the hood."*  
-
-I’m obsessed with **clean, expressive code** and the kind of design that *flows*.  
-Sometimes I reinvent the wheel, just to see if I can make it roll smoother.
-
----
-
-### ⚙️ What I’m Up To
-
-- 💼 **Building at [Etufillari Oy](https://www.etufillari.com/)**  
-  Full-stack with **Next.js**, **TypeScript**, and **Azure Functions**.  
-  Crafting scalable tools, observability dashboards, and secure APIs.  
-
-- 🎮 **Creating games**  
-  *Currently deep in C/C++ land, learning rendering, ECS, and engine design.*  
-  From visuals to systems, I like to do it all.
-  
 ---
 
 ### 🧰 Tech Stack
@@ -51,10 +27,6 @@ Sometimes I reinvent the wheel, just to see if I can make it roll smoother.
 ---
 
 ## 🚀 Selected Projects
-
-> A few highlights from my dev adventures ↓  
-> *(More in pinned repos and on GitHub!)*  
-
 <!-- ✅ Toggle Lists (Collapsible Categories) -->
 
 <details open>
@@ -116,12 +88,3 @@ Sometimes I reinvent the wheel, just to see if I can make it roll smoother.
 - 📫 [b.kasan@hotmail.com](mailto:b.kasan@hotmail.com)   
 - 🧪 [GitHub Projects](https://github.com/Bskasan)
 
----
-
-<div align="center">
-  
-🎮 <em>Currently building worlds, one line at a time.</em>
-
-</div>
-
----
