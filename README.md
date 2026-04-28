@@ -6,7 +6,7 @@ I also enjoy coding on <a href="https://www.twitch.tv/ronindevvv" target="_blank
 
 When I’m not coding, I’m probably playing drums, lifting weights, or playing games.
 
-**Currently working on my own project, <a href="https://mindbase-ten.vercel.app/" target="_blank" rel="noopener noreferrer">MindBase</a> which is a personal content management app that helps you save, organize, and schedule the articles, videos, podcasts, and other resources you want to consume later.**
+**Currently working on my own hobby project, <a href="https://mindbase-ten.vercel.app/" target="_blank" rel="noopener noreferrer">MindBase</a> which is a personal content management app that helps you save, organize, and schedule the articles, videos, podcasts, and other resources you want to consume later.**
 
 <div align="left">
 
