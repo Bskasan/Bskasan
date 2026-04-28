@@ -6,6 +6,8 @@ I also enjoy coding on <a href="https://www.twitch.tv/ronindevvv" target="_blank
 
 When I’m not coding, I’m probably playing drums, lifting weights, or playing games.
 
+**Currently working on my own project, <a href="https://mindbase-ten.vercel.app/" target="_blank" rel="noopener noreferrer">MindBase</a> which is a personal content management app that helps you save, organize, and schedule the articles, videos, podcasts, and other resources you want to consume later.**
+
 <div align="left">
 
 <a href="https://www.linkedin.com/in/bekirskasan/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"></a> 
@@ -33,6 +35,7 @@ When I’m not coding, I’m probably playing drums, lifting weights, or playing
   <summary><strong>🔥 Latest Projects I’ve Created</strong></summary>
   <br/>
   <ul>
+    <li>⏱️ <strong> MindBase - Manage your content <a href="https://mindbase-ten.vercel.app/">MindBase</a> (Currently working on this...)  </li> 
     <li>⏱️ <strong>Pomodoro OBS Overlay</strong> — A clean Pomodoro timer overlay for OBS / streaming — <a href="https://bskasan.github.io/pomodoro-obs-overlay/">Live</a> · <a href="https://github.com/Bskasan/pomodoro-obs-overlay">Repo</a></li>
   </ul>
 </details>
