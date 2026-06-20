@@ -88,7 +88,7 @@ When I’m not coding, I’m probably playing drums, lifting weights, or playing
 ### 🤝 Let’s Connect
 
 - 🧩 [LinkedIn](https://www.linkedin.com/in/bekirskasan/)
-- 🌐 [Website](https://www.bskasan.dev/)
+- 🌐 [Portfolio Website](https://www.bskasan.dev/)
 - 📫 [b.kasan@hotmail.com](mailto:b.kasan@hotmail.com)   
 - 🧪 [GitHub Projects](https://github.com/Bskasan)
 
