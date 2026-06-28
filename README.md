@@ -1,12 +1,7 @@
-<div align="center"><strong>Hi 👋 I'm Bekir, a Software Engineer based in Espoo, Finland.</strong></div>
-<hr>
-
 <div align="center">
-
-<a href="https://www.linkedin.com/in/bekirskasan/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"></a> 
-<a href="mailto:b.kasan@hotmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-b.kasan%40hotmail.com-1f2937?logo=gmail&logoColor=white&style=for-the-badge"></a> 
-<img alt="Profile views" src="https://komarev.com/ghpvc/?username=bskasan&color=red&style=for-the-badge"/>
-
+  <strong>Hi 👋 I'm Bekir, a Software Engineer based in Espoo, Finland.</strong>
+    A Programmer/Developer trying to break things until they become products. Go check my 
+    <a href="https://www.bskasan.dev/">website</a> to get more information about me.
 </div>
 
 ---
@@ -24,7 +19,7 @@
 ## 🚀 Selected Projects
 <!-- ✅ Toggle Lists (Collapsible Categories) -->
 
-<details open>
+<details open >
   <summary><strong>🔥 Latest Projects I’ve Created</strong></summary>
   <br/>
   <ul>
@@ -79,10 +74,10 @@
 
 ---
 
-### 🤝 Let’s Connect
+<div align="center">
 
-- 🧩 [LinkedIn](https://www.linkedin.com/in/bekirskasan/)
-- 🌐 [Portfolio Website](https://www.bskasan.dev/)
-- 📫 [b.kasan@hotmail.com](mailto:b.kasan@hotmail.com)   
-- 🧪 [GitHub Projects](https://github.com/Bskasan)
+<a href="https://www.linkedin.com/in/bekirskasan/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"></a> 
+<a href="mailto:b.kasan@hotmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-b.kasan%40hotmail.com-1f2937?logo=gmail&logoColor=white&style=for-the-badge"></a> 
+<img alt="Profile views" src="https://komarev.com/ghpvc/?username=bskasan&color=red&style=for-the-badge"/>
 
+</div>
