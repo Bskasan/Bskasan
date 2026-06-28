@@ -1,14 +1,7 @@
-**Hi 👋 I'm Bekir, a Software Engineer based in Espoo, Finland.**
+<div align="center"><strong>Hi 👋 I'm Bekir, a Software Engineer based in Espoo, Finland.</strong></div>
+<hr>
 
-I'm a hobbyist turned professional developer who enjoys all things computers and software engineering. In my most recent role, I worked as a Full-Stack Web Developer at <a href="https://www.northfina.fi/en" target="_blank" rel="noopener noreferrer">Northfina Oy</a> (<a href="https://etufillari.fi/" target="_blank" rel="noopener noreferrer">Etufillari Oy</a>), where I focused on building scalable web applications using Next.js, TypeScript, Node.js, and Azure Cloud Services.
-
-I also enjoy coding on <a href="https://www.twitch.tv/ronindevvv" target="_blank" rel="noopener noreferrer">stream</a>, learning in public, and improving together with others. Alongside web development, I’m interested in game development as a hobbyist and enjoy exploring low-level programming to better understand how software works under the hood.
-
-When I’m not coding, I’m probably playing drums, lifting weights, or playing games.
-
-**Currently working on my own hobby project, <a href="https://mindbase-ten.vercel.app/" target="_blank" rel="noopener noreferrer">MindBase</a> which is a personal content management app that helps you save, organize, and schedule the articles, videos, podcasts, and other resources you want to consume later.**
-
-<div align="left">
+<div align="center">
 
 <a href="https://www.linkedin.com/in/bekirskasan/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"></a> 
 <a href="mailto:b.kasan@hotmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-b.kasan%40hotmail.com-1f2937?logo=gmail&logoColor=white&style=for-the-badge"></a> 
