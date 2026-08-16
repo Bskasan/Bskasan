@@ -3,10 +3,6 @@
 </div>
 
 <div align="center">
-  <strong>Hi 👋 I'm Bekir, a Software Engineer based in Espoo, Finland.</strong>
-</div>
-
-<div align="center">
     A Programmer/Developer trying to break things until they become products. Go check my 
     <a href="https://www.bskasan.dev/">website</a> to get more information about me.
 </div>
