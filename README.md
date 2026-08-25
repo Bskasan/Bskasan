@@ -1,5 +1,9 @@
 <div align="center">
   <strong>Hi 👋 I'm Bekir, a Software Engineer based in Espoo, Finland.</strong>
+</div>\
+
+<div align="center">
+  <strong>Hi 👋 I'm Bekir, a Software Engineer based in Espoo, Finland.</strong>
 </div>
 
 <div align="center">
