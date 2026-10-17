@@ -7,8 +7,6 @@
     <a href="https://www.bskasan.dev/">website</a> to get more information about me.
 </div>
 
-ss
-
 ---
 
 ### 🧰 Tech Stack
