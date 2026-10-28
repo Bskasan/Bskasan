@@ -10,8 +10,8 @@ built-in token is enough for public data; a personal token in the STATS_TOKEN
 secret would also count private repositories).
 
 Stats:
-  Repos        repositories you own (forks included); Contributed = other repos you
-               committed to / opened PRs in
+  Repos        repositories you own (forks included); Contributed = other people's or
+               organisations' repositories you committed to or opened PRs in, all years
   Stars        stars on the repositories you own
   Followers    GitHub followers
   Commits      commit contributions, all years (what your contribution graph counts)
@@ -97,17 +97,21 @@ query($login: String!, $cursor: String) {
     createdAt
     followers { totalCount }
     contributionsCollection { contributionYears }
-    repositoriesContributedTo(
-      includeUserRepositories: false
-      contributionTypes: [COMMIT, PULL_REQUEST, REPOSITORY]
-    ) { totalCount }
     repositories(ownerAffiliations: OWNER, first: 100, after: $cursor) {
       totalCount
       pageInfo { hasNextPage endCursor }
-      nodes { nameWithOwner isFork stargazerCount pushedAt }
+      nodes { nameWithOwner isFork isPrivate stargazerCount pushedAt }
     }
   }
 }"""
+
+# One alias per contribution year: commit count, plus the repositories committed to
+# or PR'd into (GitHub's repositoriesContributedTo only covers *recent* activity).
+YEAR_FIELDS = """
+  totalCommitContributions
+  commitContributionsByRepository(maxRepositories: 100) { repository { nameWithOwner } }
+  pullRequestContributionsByRepository(maxRepositories: 100) { repository { nameWithOwner } }
+"""
 
 
 def fetch_stats(login: str, token: str, cache: dict, loc_exclude: set[str] | None = None) -> dict:
@@ -122,42 +126,67 @@ def fetch_stats(login: str, token: str, cache: dict, loc_exclude: set[str] | Non
 
     years = user["contributionsCollection"]["contributionYears"]
     fields = " ".join(
-        f'y{y}: contributionsCollection(from: "{y}-01-01T00:00:00Z", to: "{y}-12-31T23:59:59Z")'
-        " { totalCommitContributions }"
+        f'y{y}: contributionsCollection(from: "{y}-01-01T00:00:00Z", to: "{y}-12-31T23:59:59Z") {{{YEAR_FIELDS}}}'
         for y in years
     )
     yearly = graphql(f"query($login: String!) {{ user(login: $login) {{ {fields} }} }}", {"login": login}, token)["user"]
     commits = sum(v["totalCommitContributions"] for v in yearly.values())
+    others = {  # other people's / organisations' repositories, all years
+        item["repository"]["nameWithOwner"].lower()
+        for v in yearly.values()
+        for key in ("commitContributionsByRepository", "pullRequestContributionsByRepository")
+        for item in v[key]
+        if item["repository"]["nameWithOwner"].split("/")[0].lower() != login.lower()
+    }
 
     # Repositories left out of Lines of Code (e.g. ones with committed dependencies).
     excluded = {n.lower() if "/" in n else f"{login}/{n}".lower() for n in (loc_exclude or set())}
-    counted_repos = [r for r in repos if not r["isFork"] and r["nameWithOwner"].lower() not in excluded]
+    counted = [r for r in repos if not r["isFork"] and r["nameWithOwner"].lower() not in excluded]
+    public = [r for r in counted if not r["isPrivate"]]
+    private = [r for r in counted if r["isPrivate"]]
 
+    # Public repos: cached per repository (card/cache.json is committed, and public).
     loc_cache = cache.setdefault("loc", {})
-    for repo in counted_repos:
+    for repo in public:
         name = repo["nameWithOwner"]
         cached = loc_cache.get(name)
         if cached and cached.get("pushedAt") == repo["pushedAt"]:
             continue  # nothing pushed since the last count
-        counted = repo_loc(name, login, token)
-        if counted is not None:
-            loc_cache[name] = {"pushedAt": repo["pushedAt"], **counted}
+        result = repo_loc(name, login, token)
+        if result is not None:
+            loc_cache[name] = {"pushedAt": repo["pushedAt"], **result}
         elif not cached:
             print(f"  ! {name}: statistics not ready yet, counted as 0 for now", file=sys.stderr)
-    live = {r["nameWithOwner"] for r in counted_repos}
+    live = {r["nameWithOwner"] for r in public}
     for name in list(loc_cache):
         if name not in live:
-            del loc_cache[name]  # deleted, now a fork, transferred or excluded
+            del loc_cache[name]  # deleted, now private / a fork, transferred or excluded
+
+    # Private repos (only visible with a personal STATS_TOKEN): counted fresh every run
+    # and kept in the cache as one combined total, never by name.
+    if private:
+        results = [repo_loc(r["nameWithOwner"], login, token) for r in private]
+        if all(r is not None for r in results):
+            cache["private"] = {
+                "additions": sum(r["additions"] for r in results),
+                "deletions": sum(r["deletions"] for r in results),
+            }
+        elif "private" not in cache:
+            ready = [r for r in results if r is not None]
+            cache["private"] = {"additions": sum(r["additions"] for r in ready), "deletions": sum(r["deletions"] for r in ready)}
+    else:
+        cache.pop("private", None)
+    priv = cache.get("private", {"additions": 0, "deletions": 0})
 
     return {
         "created_at": user["createdAt"],
         "repos": user["repositories"]["totalCount"],
-        "contributed": user["repositoriesContributedTo"]["totalCount"],
+        "contributed": len(others),
         "stars": sum(r["stargazerCount"] for r in repos),
         "followers": user["followers"]["totalCount"],
         "commits": commits,
-        "additions": sum(v["additions"] for v in loc_cache.values()),
-        "deletions": sum(v["deletions"] for v in loc_cache.values()),
+        "additions": sum(v["additions"] for v in loc_cache.values()) + priv["additions"],
+        "deletions": sum(v["deletions"] for v in loc_cache.values()) + priv["deletions"],
     }
 
 
