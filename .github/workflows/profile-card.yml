@@ -25,9 +25,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -39,6 +39,10 @@ jobs:
         run: |
           stats=$(python card/generate.py --print-stats)
           echo "::notice title=Profile card stats::$stats"
+
+      - name: Lines of code by repository
+        if: github.event_name == 'pull_request'
+        run: python card/generate.py --loc-report
 
       - name: Commit the updated card
         if: github.event_name != 'pull_request'

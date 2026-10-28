@@ -331,7 +331,15 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--stats", help="render from this stats JSON instead of calling the API")
     ap.add_argument("--print-stats", action="store_true", help="print the stats as one JSON line")
+    ap.add_argument("--loc-report", action="store_true", help="list lines of code per repo from card/cache.json")
     args = ap.parse_args()
+
+    if args.loc_report:
+        loc = json.loads((HERE / "cache.json").read_text()).get("loc", {})
+        ranked = sorted(loc.items(), key=lambda kv: -kv[1]["additions"])
+        lines = [f"{name}: +{v['additions']:,} -{v['deletions']:,}" for name, v in ranked if v["additions"]]
+        print("::notice title=Lines of code by repository::" + " | ".join(lines))
+        return 0
 
     profile = tomllib.loads((HERE / "profile.toml").read_text(encoding="utf-8"))
     art = (HERE / "portrait.txt").read_text(encoding="utf-8").rstrip("\n").split("\n")
