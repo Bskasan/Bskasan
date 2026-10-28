@@ -23,7 +23,7 @@
   <br/>
   <ul>
     <li>✍️ <strong>ronin</strong> — A small, fast, Emacs-style code editor for Windows, written in C with no dependencies — <a href="https://bskasan.github.io/ronin-text-editor/">Live</a> · <a href="https://github.com/Bskasan/ronin-text-editor">Repo</a></li>
-    <li>⏱️ <strong><a href="https://www.dymostride.com/">DymoStride</a></strong> — AI-assisted habit tracker — <a href="https://github.com/DymoStride/dymostride-monorepo">Repo</a></li>
+    <li>⏱️ <strong><a href="https://www.dymostride.com/">DymoStride</a></strong> — AI-assisted habit tracker</li>
     <li>⏱️ <strong>Pomodoro OBS Overlay</strong> — A clean Pomodoro timer overlay for OBS / streaming — <a href="https://bskasan.github.io/pomodoro-obs-overlay/">Live</a> · <a href="https://github.com/Bskasan/pomodoro-obs-overlay">Repo</a></li>
     <li>⏱️ <strong><a href="https://www.bskasan.dev/">My Portfolio Website</a></strong> — <a href="https://github.com/Bskasan/portfolio-website">Repo</a></li>
   </ul>
