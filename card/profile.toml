@@ -9,6 +9,10 @@ title = "bekir@kasan"         # header of the card
 # created; or put a date like "1995-04-12" (birthday) / "2021-03-01" (first job).
 uptime_since = "github"
 
+# Repositories left out of "Lines of Code" (their additions aren't hand-written
+# code). React_Practises has a committed node_modules folder (~52,000 files).
+loc_exclude = ["React_Practises"]
+
 # Sections and rows, top to bottom. An empty row ("") becomes a spacer dot.
 [[section]]
 rows = [

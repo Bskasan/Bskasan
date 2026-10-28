@@ -16,8 +16,9 @@ Stats:
   Followers    GitHub followers
   Commits      commit contributions, all years (what your contribution graph counts)
   Lines of Code  additions / deletions authored by you in your own non-fork repos,
-               from GitHub's contributor statistics. Cached in card/cache.json, so a
-               repository whose statistics are still being computed keeps its last value.
+               from GitHub's contributor statistics, minus the repos in `loc_exclude`
+               (profile.toml). Cached in card/cache.json, so a repository whose
+               statistics are still being computed keeps its last value.
 """
 from __future__ import annotations
 
@@ -109,7 +110,7 @@ query($login: String!, $cursor: String) {
 }"""
 
 
-def fetch_stats(login: str, token: str, cache: dict) -> dict:
+def fetch_stats(login: str, token: str, cache: dict, loc_exclude: set[str] | None = None) -> dict:
     repos, cursor = [], None
     while True:
         user = graphql(USER_QUERY, {"login": login, "cursor": cursor}, token)["user"]
@@ -128,10 +129,12 @@ def fetch_stats(login: str, token: str, cache: dict) -> dict:
     yearly = graphql(f"query($login: String!) {{ user(login: $login) {{ {fields} }} }}", {"login": login}, token)["user"]
     commits = sum(v["totalCommitContributions"] for v in yearly.values())
 
+    # Repositories left out of Lines of Code (e.g. ones with committed dependencies).
+    excluded = {n.lower() if "/" in n else f"{login}/{n}".lower() for n in (loc_exclude or set())}
+    counted_repos = [r for r in repos if not r["isFork"] and r["nameWithOwner"].lower() not in excluded]
+
     loc_cache = cache.setdefault("loc", {})
-    for repo in repos:
-        if repo["isFork"]:
-            continue
+    for repo in counted_repos:
         name = repo["nameWithOwner"]
         cached = loc_cache.get(name)
         if cached and cached.get("pushedAt") == repo["pushedAt"]:
@@ -141,10 +144,10 @@ def fetch_stats(login: str, token: str, cache: dict) -> dict:
             loc_cache[name] = {"pushedAt": repo["pushedAt"], **counted}
         elif not cached:
             print(f"  ! {name}: statistics not ready yet, counted as 0 for now", file=sys.stderr)
-    live = {r["nameWithOwner"] for r in repos if not r["isFork"]}
+    live = {r["nameWithOwner"] for r in counted_repos}
     for name in list(loc_cache):
         if name not in live:
-            del loc_cache[name]  # deleted / now a fork / transferred
+            del loc_cache[name]  # deleted, now a fork, transferred or excluded
 
     return {
         "created_at": user["createdAt"],
@@ -175,34 +178,6 @@ def repo_loc(name: str, login: str, token: str) -> dict | None:
             return {"additions": 0, "deletions": 0}  # empty repository
         time.sleep(3 + attempt * 2)  # 202: statistics are being computed
     return None
-
-
-BULK_DIRS = {
-    "node_modules": "node_modules", "bower_components": "bower_components", "vendor": "vendor",
-    "dist": "dist", "build": "build", ".next": ".next", "out": "out",
-    "Library": "Unity Library", "Temp": "Unity Temp", "obj": "obj", "bin": "bin",
-    "venv": "venv", ".venv": ".venv", "env": "env", "site-packages": "site-packages",
-}
-
-
-def committed_bulk(name: str, token: str) -> list[str]:
-    """Folders in the default branch that usually hold dependencies or generated files."""
-    _, repo = api(f"/repos/{name}", token)
-    _, tree = api(f"/repos/{name}/git/trees/{repo['default_branch']}?recursive=1", token)
-    seen: dict[str, int] = {}
-    for item in tree.get("tree", []):
-        parts = item["path"].split("/")
-        for part in parts[:-1]:
-            if part in BULK_DIRS:
-                seen[BULK_DIRS[part]] = seen.get(BULK_DIRS[part], 0) + 1
-                break
-    unity_assets = sum(1 for i in tree.get("tree", []) if i["path"].endswith((".unity", ".prefab", ".asset", ".meta")))
-    out = [f"{label} ({n} files)" for label, n in sorted(seen.items(), key=lambda kv: -kv[1])]
-    if unity_assets:
-        out.append(f"Unity asset/meta files ({unity_assets})")
-    if tree.get("truncated"):
-        out.append("tree truncated (very large)")
-    return out
 
 
 # ---------------------------------------------------------------- render ----
@@ -367,10 +342,6 @@ def main() -> int:
         ranked = sorted(loc.items(), key=lambda kv: -kv[1]["additions"])
         lines = [f"{name}: +{v['additions']:,} -{v['deletions']:,}" for name, v in ranked if v["additions"]]
         print("::notice title=Lines of code by repository::" + " | ".join(lines))
-        token = os.environ.get("GITHUB_TOKEN")
-        if token:  # what's committed in the biggest repos (dependencies / build output / engine files)
-            found = [f"{name}: {', '.join(committed_bulk(name, token)) or 'nothing unusual'}" for name, _ in ranked[:15]]
-            print("::notice title=Committed dependency or generated folders::" + " | ".join(found))
         return 0
 
     profile = tomllib.loads((HERE / "profile.toml").read_text(encoding="utf-8"))
@@ -385,7 +356,7 @@ def main() -> int:
         if not token:
             print("GITHUB_TOKEN is not set", file=sys.stderr)
             return 1
-        stats = fetch_stats(profile["github"], token, cache)
+        stats = fetch_stats(profile["github"], token, cache, set(profile.get("loc_exclude", [])))
         cache_path.write_text(json.dumps(cache, indent=1, sort_keys=True) + "\n")
 
     if args.print_stats:
