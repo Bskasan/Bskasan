@@ -1,0 +1,41 @@
+# Text shown on the profile card. Edit freely: the Action re-renders the card
+# (card/dark.svg, card/light.svg) on every push to main that touches card/,
+# and once a day to refresh the GitHub stats.
+
+github = "Bskasan"            # whose stats to fetch
+title = "bekir@kasan"         # header of the card
+
+# "Uptime" counts from this date. "github" = the day the GitHub account was
+# created; or put a date like "1995-04-12" (birthday) / "2021-03-01" (first job).
+uptime_since = "github"
+
+# Sections and rows, top to bottom. An empty row ("") becomes a spacer dot.
+[[section]]
+rows = [
+  ["OS", "Windows, Linux"],
+  ["Uptime", "{uptime}"],
+  ["Host", "Espoo, Finland"],
+  ["Kernel", "Full-stack Software Developer"],
+  ["IDE", "Cursor, ronin (my own, WIP)"],
+  "",
+  ["Languages.Programming", "TypeScript, JavaScript, C#, C, C++"],
+  ["Languages.Computer", "HTML, CSS, Sass, SQL, HLSL"],
+  ["Languages.Real", "Turkish, English, Finnish"],
+  "",
+  ["Hobbies.Software", "Game Dev, Low-level, Streaming"],
+  ["Hobbies.Offline", "Drums, Lifting, Gaming"],
+]
+
+[[section]]
+title = "Contact"
+rows = [
+  ["Email", "b.kasan@hotmail.com"],
+  ["Website", "bskasan.dev"],
+  ["LinkedIn", "bekirskasan"],
+  ["X", "@BekirKasan1"],
+  ["Twitch", "ronindevvv"],
+]
+
+[[section]]
+title = "GitHub Stats"
+stats = true

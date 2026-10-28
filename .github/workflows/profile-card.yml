@@ -1,0 +1,55 @@
+name: Profile card
+
+# Renders card/dark.svg and card/light.svg with fresh GitHub stats.
+# - daily, on demand, and when card/ or this workflow changes on main: render and commit
+# - on pull requests: render only (checks the script against the real API, commits nothing)
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["card/generate.py", "card/profile.toml", "card/portrait.txt", ".github/workflows/profile-card.yml"]
+  pull_request:
+    paths: ["card/**", ".github/workflows/profile-card.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-card-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render card
+        id: render
+        env:
+          # A personal access token in STATS_TOKEN (optional) also counts private repos.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          stats=$(python card/generate.py --print-stats)
+          echo "::notice title=Profile card stats::$stats"
+
+      - name: Commit the updated card
+        if: github.event_name != 'pull_request'
+        run: |
+          git add card/dark.svg card/light.svg card/cache.json
+          if git diff --cached --quiet; then
+            echo "Card unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(card): update profile card"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
