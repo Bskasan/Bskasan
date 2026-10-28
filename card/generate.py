@@ -177,6 +177,34 @@ def repo_loc(name: str, login: str, token: str) -> dict | None:
     return None
 
 
+BULK_DIRS = {
+    "node_modules": "node_modules", "bower_components": "bower_components", "vendor": "vendor",
+    "dist": "dist", "build": "build", ".next": ".next", "out": "out",
+    "Library": "Unity Library", "Temp": "Unity Temp", "obj": "obj", "bin": "bin",
+    "venv": "venv", ".venv": ".venv", "env": "env", "site-packages": "site-packages",
+}
+
+
+def committed_bulk(name: str, token: str) -> list[str]:
+    """Folders in the default branch that usually hold dependencies or generated files."""
+    _, repo = api(f"/repos/{name}", token)
+    _, tree = api(f"/repos/{name}/git/trees/{repo['default_branch']}?recursive=1", token)
+    seen: dict[str, int] = {}
+    for item in tree.get("tree", []):
+        parts = item["path"].split("/")
+        for part in parts[:-1]:
+            if part in BULK_DIRS:
+                seen[BULK_DIRS[part]] = seen.get(BULK_DIRS[part], 0) + 1
+                break
+    unity_assets = sum(1 for i in tree.get("tree", []) if i["path"].endswith((".unity", ".prefab", ".asset", ".meta")))
+    out = [f"{label} ({n} files)" for label, n in sorted(seen.items(), key=lambda kv: -kv[1])]
+    if unity_assets:
+        out.append(f"Unity asset/meta files ({unity_assets})")
+    if tree.get("truncated"):
+        out.append("tree truncated (very large)")
+    return out
+
+
 # ---------------------------------------------------------------- render ----
 def add_months(day: dt.date, months: int) -> dt.date:
     """`day` moved by whole months, clamped to the end of shorter months (Jan 31 + 1 = Feb 28)."""
@@ -339,6 +367,10 @@ def main() -> int:
         ranked = sorted(loc.items(), key=lambda kv: -kv[1]["additions"])
         lines = [f"{name}: +{v['additions']:,} -{v['deletions']:,}" for name, v in ranked if v["additions"]]
         print("::notice title=Lines of code by repository::" + " | ".join(lines))
+        token = os.environ.get("GITHUB_TOKEN")
+        if token:  # what's committed in the biggest repos (dependencies / build output / engine files)
+            found = [f"{name}: {', '.join(committed_bulk(name, token)) or 'nothing unusual'}" for name, _ in ranked[:15]]
+            print("::notice title=Committed dependency or generated folders::" + " | ".join(found))
         return 0
 
     profile = tomllib.loads((HERE / "profile.toml").read_text(encoding="utf-8"))

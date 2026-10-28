@@ -42,6 +42,8 @@ jobs:
 
       - name: Lines of code by repository
         if: github.event_name == 'pull_request'
+        env:
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
         run: python card/generate.py --loc-report
 
       - name: Commit the updated card
