@@ -14,14 +14,6 @@
   <a href="https://www.twitch.tv/ronindevvv">Twitch</a>
 </p>
 
-<p>
-  <a href="https://www.bskasan.dev/">bskasan.dev</a> ·
-  <a href="https://www.linkedin.com/in/bekirskasan/">LinkedIn</a> ·
-  <a href="mailto:b.kasan@hotmail.com">b.kasan@hotmail.com</a> ·
-  <a href="https://x.com/BekirKasan1">X</a> ·
-  <a href="https://www.twitch.tv/ronindevvv">Twitch</a>
-</p>
-
 ---
 
 ## 🚀 Selected Projects
